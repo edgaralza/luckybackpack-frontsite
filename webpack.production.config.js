@@ -57,10 +57,10 @@ module.exports = {
             {
                 test: /^((?!\.global).)*\.less$/,
                 loader: ExtractTextPlugin.extract(
-                    'style-loader',
-                    'css-loader?modules&sourceMap&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
-                    'less-loader'
-                ),
+                  {
+                    fallbackLoader: 'style-loader',
+                    loader: 'css-loader!less-loader'
+                    })
                 exclude: /node_modules/
             }
         ]
