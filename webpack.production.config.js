@@ -55,13 +55,9 @@ module.exports = {
                 exclude: /node_modules/
             },
             {
-                test: /\.less$/,
-                loader: ExtractTextPlugin.extract(
-                  {
-                    fallbackLoader: 'style-loader',
-                    loader: 'css-loader!less-loader'
-                  }),
-                  exclude: /node_modules/
+              test: /(\.less|\.css)$/,
+              loader: 'style!css!less',
+              exclude: /node_modules/
             }
         ]
     },

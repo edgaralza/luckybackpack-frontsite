@@ -49,24 +49,7 @@ module.exports = {
                 loader: 'style!css!less',
                 exclude: /node_modules/
             }
-            // {
-            //     test: /\.global\.less$/,
-            //     loaders: [
-            //         'style-loader',
-            //         'css-loader?sourceMap',
-            //         'less-loader'
-            //     ],
-            //     exclude: /node_modules/
-            // },
-            // {
-            //     test: /^((?!\.global).)*\.less$/,
-            //     loaders: [
-            //         'style-loader',
-            //         'css-loader?modules&sourceMap&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
-            //         'less-loader'
-            //     ],
-            //     exclude: /node_modules/
-            // }
+
         ]
     }
 }
