@@ -61,6 +61,7 @@ module.exports = {
                     fallbackLoader: 'style-loader',
                     loader: 'css-loader!less-loader'
                     })
+                  exclude: /node_modules/
             }
         ]
     },
