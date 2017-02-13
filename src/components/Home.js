@@ -23,13 +23,13 @@ export default function Home(props) {
     return (
         <div className='home'>
             <section className='home__landing column'>
-                <h2 className="home_header_title"> Lucky Backpack</h2>
+                <h2 className="home_header_title " > Lucky Backpack</h2>
                 <h4>Optimized travel to Europe coming soon</h4>
                 <a href="http://eepurl.com/bMXxlr "className="homebuttonlink">Stay Informed</a>
             </section>
 
             <section className='home__about column'>
-                <h3>Personalized Travel Solutions in Seconds</h3>
+                <h3 className="text-center">Personalized Travel Solutions in Seconds</h3>
                 <div className='row'>
                     <div className='col-lg-4 col-md-6'>
                         <div className='home__step'>
@@ -56,7 +56,7 @@ export default function Home(props) {
             </section>
 
             <section className='home__video column'>
-                <h3>Watch our Walkthrough video</h3>
+                <h3 className="text-center">Watch our Walkthrough video</h3>
                 <iframe
                     width="600"
                     height="600"
