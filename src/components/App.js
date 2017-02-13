@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import DevTools from './DevTools'
 import Header from './Header'
-import '../styles/index'
+import Styles from'../styles/index'
 
 export default class App extends Component {
     render() {
