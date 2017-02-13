@@ -1,0 +1,50 @@
+.header {
+    height: @headerHeight;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background: @dark-gray;
+    font-size: 16px;
+}
+
+.header__img {
+    height: 5rem;
+    width: 5rem;
+    margin: auto 1rem;
+}
+
+.header__tab {
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+    padding: 0 2rem;
+    color: @gray;
+    font-family: light;
+    &:hover {
+        color: @light-gray;
+    }
+
+    &.active {
+        color: white;
+        box-shadow: 0 -8px @blue;
+    }
+}
+.header__login {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 1rem 0.5rem auto;
+    padding: 0 2rem;
+    color: #0EAC69;
+    font-family: light;
+    border-style: groove;
+    border-color: #0EAC69;
+    border-height: 80%;
+    &:hover {
+        color: @white;
+    }
+
+    &.active {
+        color: white;
+        box-shadow: 0 -8px @blue;
+    }
+}
