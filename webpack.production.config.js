@@ -41,7 +41,7 @@ module.exports = {
                 exclude: /node_modules/
             },
             {
-                test: /\.(jpg|png|gif|eot|svg|ttf|woff|woff2)(\?.*)?$/,
+                test: /\.(jpg|png|jpeg|gif|eot|svg|ttf|woff|woff2)(\?.*)?$/,
                 loader: 'file',
                 exclude: /node_modules/
             },
